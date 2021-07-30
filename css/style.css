@@ -39,8 +39,11 @@ h1 {
   font-family: "Creolia", sans-serif !important;
   color: #E63946;
 }
+h2 {
+  font-family: "Creolia", sans-serif !important;
+}
 
-h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   color: #000; 
 }
@@ -61,61 +64,61 @@ h2, h3, h4, h5, h6 {
 
 /* h1 {
 
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 1s;
   -webkit-animation-name: slidein;
 
-  -moz-animation-duration: 3s;
+  -moz-animation-duration: 1s;
   -moz-animation-name: slidein;
 
-  -o-animation-duration: 3s;
+  -o-animation-duration: 1s;
   -o-animation-name: slidein;
 
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-name: slidein;
 }
 
 @-webkit-keyframes slidein {
   from {
-      margin-left: 75%;
+      margin-top: 75%;
       width: 300%;
   }
 
   to {
-      margin-left: 0%;
+      margin-top: 0%;
       width: 100%;
   }
 }
 
 @-moz-keyframes slidein {
   from {
-      margin-left: 100%;
+      margin-top: 100%;
       width: 300%;
   }
 
   to {
-      margin-left: 0%;
+      margin-top: 0%;
       width: 100%;
   }
 }
 @-o-keyframes slidein {
   from {
-      margin-left: 100%;
+      margin-top: 100%;
       width: 300%;
   }
 
   to {
-      margin-left: 0%;
+      margin-top: 0%;
       width: 100%;
   }
 }
 @keyframes slidein {
   from {
-      margin-left: 100%;
+      margin-top: 100%;
       width: 300%;
   }
 
   to {
-      margin-left: 0%;
+      margin-top: 0%;
       width: 100%;
   }
 } */
@@ -124,7 +127,12 @@ span {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   /* font-family: "Creolia", sans-serif; */
-}  
+}
+
+#explicacao-video {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
 
 /*==============================================
 03. SOCIAL ICONS CSS
@@ -661,17 +669,18 @@ span {
 
   .service-12 {
     font-family: "Poppins", sans-serif !important;
-    color: #8d97ad;
+    color: #808080;
     font-weight: 300;
   }
   
-  .service-12 h1, .service-12 h2, .service-12 h3, .service-12 h4, .service-12 h5, .service-12 h6 {
+  .service-12 h1,.service-12 h3, .service-12 h4, .service-12 h5, .service-12 h6 {
     font-family: "Poppins", sans-serif !important;
     color: #3e4555;
   }
   
   .service-12 h6 {
       font-family: "Poppins", sans-serif !important;
+      font-weight: 300;
       line-height: 22px;
       font-size: 18px;
   }
@@ -690,8 +699,9 @@ span {
   }
   
   .service-12 .subtitle {
-      color: #8d97ad;
-      line-height: 24px;
+    color: #808080;
+    /* color: #8d97ad; */
+    line-height: 24px;
   }
   
   .service-12 .card.card-shadow {
@@ -962,7 +972,7 @@ span {
   color: #b3b3b3; }
 
 .section-title .title {
-  font-family: "Poppins", sans-serif;
+  font-family: "Creolia", sans-serif !important;
   font-size: 2.2rem; 
 }
 
@@ -1290,3 +1300,12 @@ span {
         opacity: 0;
       }
     }
+
+    @media (max-width: 375px) {
+      .scroll-down {
+        display: none;
+    }
+  }
+
+    /* nossa missão */
+    /* nossa missão */
