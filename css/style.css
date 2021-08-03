@@ -1301,11 +1301,32 @@ span {
       }
     }
 
-    @media (max-width: 375px) {
-      .scroll-down {
-        display: none;
-    }
+@media (max-width: 375px) {
+  .scroll-down {
+    display: none;
   }
+}
+@media (max-width: 414px) {
+  .scroll-down {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .scroll-down {
+    display: none;
+  }
+}
 
     /* nossa missão */
     /* nossa missão */
+
+@media (max-width: 375px) {
+  .container h1 {
+    font-size: 4.3rem !important;
+    }
+}
+@media (max-width: 375px) {
+  #social-icons {
+    margin-top: -50px;
+  }
+}
